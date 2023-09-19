@@ -1,0 +1,387 @@
+:root {
+    --c-brand: #4D5AE5;
+    --c-text: #2E2F42;
+    --c-background: #1e1823;
+    --c-background-light: #FFF;
+    --c-background-centre: #F4F4FD;
+    --c-hover-active: #404BBF;
+    --c-contacts: #434455;
+}
+
+
+
+/* Base */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--c-contacts);
+    background-color: var(--c-background-light);
+    font-size: 16px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+        
+}
+
+
+/* END Base */
+
+
+/* Header */
+
+.container header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+
+
+    color: var(--c-brand);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+
+
+}
+
+.logo-accent {
+    color: var(--c-text);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+.nav-link {
+    color: var(--c-text);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    display: inline-block;
+    padding: 24px 0;
+}
+
+.nav-link:hover {
+    color: var(--c-hover-active);
+
+}
+
+.nav-link:focus {
+    color: var(--c-hover-active);
+
+}
+
+.address {
+    font-style: normal;
+    padding: 24px 0;
+}
+
+
+.address-ul {
+    display: flex;
+    gap: 40px;
+}
+
+.contacts {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--c-contacts);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.contacts:hover {
+    color: var(--c-hover-active);
+}
+
+.contacts:focus {
+    color: var(--c-hover-active);
+}
+
+
+
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+/* Section 1 - Hero section*/
+
+.hero-section {
+    background-color: #2E2F42;
+    padding-bottom: 188px;
+    padding-top: 188px;
+}
+
+.zagolovok {
+    color: var(--c-background-light);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+
+}
+
+.button {
+
+    color: var(--c-background-light);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: var(--c-brand);
+    cursor: pointer;
+    padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.button:hover {
+    background-color: var(--c-hover-active);
+
+}
+
+.button:focus {
+    background-color: var(--c-hover-active);
+
+}
+
+/* Section 2 */
+
+.section-two {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+        white-space: nowrap;
+    overflow: hidden;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+
+}
+
+.opisanie {
+    color: var(--c-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+
+}
+
+.text {
+    color: var(--c-contacts);
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.about-li {
+    max-width: 264px;
+    width: calc((100% - 72px) / 4);
+}
+
+
+
+/* Section 3 */
+
+.team {
+    background-color: var(--c-background-centre);
+    padding: 120px 0;
+}
+
+.team-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.drugoizagolovok {
+    color: var(--c-text);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.photo {
+    background-color: var(--c-background-light);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.posit {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.sotrudnik {
+    padding: 32px 0;
+}
+
+.op-sotr {
+    color: var(--c-text);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
+/* Section 4 */
+
+.portfolio {
+    padding: 120px 0;
+}
+
+
+.portfolio-ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+   
+       
+}
+
+.portfolio-li li:first-child {
+    width: calc((100% - 72px) / 3);
+}
+
+
+.dodatok {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+/*Footer*/
+
+.footer-section {
+    background-color: var(--c-text);
+padding: 100px 0;
+}
+
+.footer-text {
+    color: var(--c-background-centre);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    max-width: 264px;
+}
+
+.logo-foot {
+    color: var(--c-brand);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-ac-foot {
+    color: var(--c-background-centre);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
