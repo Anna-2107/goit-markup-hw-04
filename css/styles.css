@@ -230,6 +230,12 @@ nav {
 
 /* Section 2 */
 
+.svg {
+width="64";
+height="64"
+}
+
+
 .section-two {
     padding: 120px 0;
 }
@@ -402,7 +408,7 @@ fill: var(--c-background-light)
     row-gap: 48px;
 }
 
-.portfolio-li {
+.portfolio-li:hover {
     transition: box-shadow 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
