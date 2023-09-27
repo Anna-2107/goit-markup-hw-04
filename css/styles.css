@@ -487,6 +487,10 @@ transform: translateY(100%);
     max-width: 264px;
 }
 
+.div-logo {
+    margin-right: 120px;
+}
+
 .logo-foot {
     color: var(--c-brand);
     font-family: 'Raleway', sans-serif;
@@ -511,15 +515,12 @@ transform: translateY(100%);
 }
 
 .footer-inner {
+width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
     display: flex;
-    margin-right: 120px;
- 
-}
-
-.footer-socials {
-
-}
-
+    align-items: baseline;
+ }
 
 .social{
 color: var(--c-background-light);   
